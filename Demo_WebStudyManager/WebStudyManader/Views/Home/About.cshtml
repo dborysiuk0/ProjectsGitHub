@@ -1,0 +1,43 @@
+﻿@model IEnumerable<WebStudyManader.Models.SchoolViewModels.EnrollmentDateGroup>
+
+@{
+    ViewData["Title"] = "Student Body Statistics";
+}
+
+<h2>Student Body Statistics</h2>
+
+@if (User.IsInRole("Admin"))
+{
+    <table>
+        <tr>
+            <th>
+                Enrollment Date
+            </th>
+            <th>
+                Students
+            </th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.EnrollmentDate)
+                </td>
+                <td>
+                    @item.StudentCount
+                </td>
+            </tr>
+        }
+    </table>
+}
+
+<div class="col-md-10">
+    <p><label>Total Students:</label>  @ViewBag.TotalStudents</p>
+</div>
+<div class="col-md-10">
+    <p><label>Total Instructors:</label>  @ViewBag.TotalInstructors</p>
+</div>
+<div class="col-md-10">
+    <p><label>Total :</label>  @ViewBag.total</p>
+</div>

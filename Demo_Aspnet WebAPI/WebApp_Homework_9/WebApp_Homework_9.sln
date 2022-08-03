@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30517.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApp_Homework_9", "WebApp_Homework_9.csproj", "{E07FE057-97C1-4C18-BFE7-A63699D15ED7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdoNetProvider", "..\AdoNetProvider\AdoNetProvider.csproj", "{3794A2E0-A01E-4374-9C58-92143B410CEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E07FE057-97C1-4C18-BFE7-A63699D15ED7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E07FE057-97C1-4C18-BFE7-A63699D15ED7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E07FE057-97C1-4C18-BFE7-A63699D15ED7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E07FE057-97C1-4C18-BFE7-A63699D15ED7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3794A2E0-A01E-4374-9C58-92143B410CEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3794A2E0-A01E-4374-9C58-92143B410CEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3794A2E0-A01E-4374-9C58-92143B410CEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3794A2E0-A01E-4374-9C58-92143B410CEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {643672B2-87E2-48BE-BDDB-F305B223B8F8}
+	EndGlobalSection
+EndGlobal

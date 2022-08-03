@@ -1,0 +1,21 @@
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace WebStudyManader.Models
+{
+    public class Student : Person
+    {
+        [DataType(DataType.Date)]
+        [DisplayFormat(DataFormatString = "{0:yyyy-MM-dd}", ApplyFormatInEditMode = true)]
+        [Display(Name = "Enrollment Date")]
+        public DateTime EnrollmentDate { get; set; }
+
+        public int? CourseID { get; set; }
+        public Grade? Grade { get; set; }
+        
+        public Course Course { get; set; }
+        public ICollection<Enrollment> Enrollments { get; set; }
+    }
+}

@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NTP_ConsoleApp", "NTP_ConsoleApp\NTP_ConsoleApp.csproj", "{37BD44CD-0F6C-4A12-BA90-791D13BECE1A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{37BD44CD-0F6C-4A12-BA90-791D13BECE1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{37BD44CD-0F6C-4A12-BA90-791D13BECE1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{37BD44CD-0F6C-4A12-BA90-791D13BECE1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{37BD44CD-0F6C-4A12-BA90-791D13BECE1A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9845693E-1EB6-4DD4-8A5E-DF89104E7D7F}
+	EndGlobalSection
+EndGlobal
